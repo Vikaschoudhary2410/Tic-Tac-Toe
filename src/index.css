@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: rgb(234, 222, 1);
+  color: rgb(0, 0, 0);
+}
+
+body {
+  display: flex;
+  justify-content: center;  /* Horizontal center */
+  align-items: center;      /* Vertical center */
+  flex-direction: column;   /* Sab upar se neeche center aligned */
+  text-align: center;       /* Text bhi center ho */
+}
+
+header{
+  margin-top: 5vh;
+}
